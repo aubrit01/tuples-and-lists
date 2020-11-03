@@ -1,0 +1,11 @@
+# Write a python program to check whether the letter 'a' is in the list.
+# If it is in the list print the statement 'I found it', then delete that element from the list.
+# Assign it to a new variable and print the updated list.
+
+list = ['a', 'e', 'i', 'o', 'u', 'z', 'q', 'x', 'a', 'b']
+ 
+if 'a' in list:
+ print('I found it!')
+ x = list.pop('a')
+ 
+print(list)
